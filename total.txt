@@ -1,0 +1,16 @@
+total=0
+for i in range(1,11):
+    total+=i
+    print("Sum=",total)
+
+a=(45,465,4565,65)
+print("Sum=",total)
+
+a=(45,465,4565,65)
+print("a")
+
+print("MEEGHA CHARLES")
+
+a=input("Enter the first value")
+b=input("Enter the second value")
+print(a+b)
