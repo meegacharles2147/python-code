@@ -1,0 +1,9 @@
+percentage = float(input("Enter your Class 12 percentage: "))
+
+physics = input("Did you study Physics? (yes/no): ").lower()
+mathematics = input("Did you study Mathematics? (yes/no): ").lower()
+
+if percentage >= 50 and physics == "yes" and mathematics == "yes":
+    print("Congratulations! You are eligible for B.Tech admission at ATLAS SkillTech University.")
+else:
+    print("Sorry, you are not eligible for B.Tech admission at ATLAS SkillTech University.")
